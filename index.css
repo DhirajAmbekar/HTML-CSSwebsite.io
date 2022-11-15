@@ -1,0 +1,263 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ .main_div{
+    height: 900px;
+    width: 100%;
+ }
+ .inner_div1{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    padding: 60px 400px;
+    box-sizing: border-box;
+ }
+ .inner_div1 h1{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+ }
+ .inner_div1 p{
+    font: 35px 'Open Sans', sans-serif; 
+    width: 600px;
+    color: rgb(166, 165, 165);
+ }
+ .inner_div2{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .linear_div{
+    height: 550px;
+    width: 570px;
+    position: relative;
+    overflow: hidden;
+   
+   
+ }
+ .linear_div img{
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+ }
+ .linear_div:hover img{
+    transform: scale(1.1);
+   
+    
+    
+
+ }
+ .obey1{
+    height:10%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.226),rgb(0, 0, 0));
+    bottom: 0;
+    position: absolute;
+    transition: all 1s;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif; 
+    
+ }
+
+ .obey1 h2{
+    font-size: 20px;
+    color: white;
+    padding: 20px 0px 10px 20px;
+    /* padding-top:400px ; */
+    transition: all 1s;
+ }
+ .obey1 h3{
+    font-size:20px ;
+    color: white;
+    padding: 20px 0px 10px 20px;;
+ }
+ .obey1 p{
+    font-size:20px;
+    color: white;
+    padding: 0px 30px 5px 20px;;
+ }
+.linear_div:hover .obey1{
+    height: 100%;
+}
+.obey1:hover h2{
+/* font-size: 20px; */
+
+padding-top: 350px;
+}
+.linear_div2{
+    display: flex;
+    
+    justify-content:center;
+    align-items:center; 
+    
+}
+.inline_div{
+   height: 275px;
+   width: 280px;
+   overflow: hidden;
+   position: relative;
+   
+}
+.inline_div img{
+    height: 100%;
+    width: 100%;
+    transition:all 1s;
+}
+.inline_div:hover img{
+    transform: scale(1.1);
+}
+.over1{
+    height: 12%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.881));
+    position: absolute;
+    bottom: 0;
+    transition: all 1s;
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+
+}
+.inline_div:hover .over1{
+    height: 100%;
+}
+.over1 h2{
+    padding:0px 0px 10px 10px;
+    transition: all 0.9s;
+}
+.inline_div .over1:hover h2{
+    padding-top: 100px;
+}
+
+.over1 h3{
+    padding: 0px 0px 10px 10px;
+}
+.over1 p{
+    font-size: 18px;
+    padding: 0px 0px 0px 10px;
+}
+.over2{
+    height: 12%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.881));
+
+    position: absolute;
+    bottom: 0;
+    transition: all 1s;
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+
+}
+.inline_div:hover .over2{
+    height: 100%;
+}
+.over2 h2{
+    padding:0px 0px 10px 10px;
+    transition: all 0.9s;
+}
+.inline_div .over2:hover h2{
+    padding-top: 50px;
+}
+
+.over2 h3{
+    padding: 0px 0px 10px 10px;
+}
+.over2 p{
+    font-size: 18px;
+    padding: 0px 0px 0px 10px;
+}
+.over3{
+    height: 12%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.881));
+
+    position: absolute;
+    bottom: 0;
+    transition: all 1s;
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+
+}
+.inline_div:hover .over3{
+    height: 100%;
+}
+.over3 h2{
+    padding:0px 0px 10px 10px;
+    transition: all 0.9s;
+}
+.inline_div .over3:hover h2{
+    padding-top: 50px;
+}
+
+.over3 h3{
+    padding: 0px 0px 10px 10px;
+}
+.over3 p{
+    font-size: 18px;
+    padding: 0px 0px 0px 10px;
+}
+.over4{
+    height: 12%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.881));
+
+    position: absolute;
+    bottom: 0;
+    transition: all 1s;
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+
+}
+.inline_div:hover .over4{
+    height: 100%;
+}
+.over4 h2{
+    padding:0px 0px 10px 10px;
+    transition: all 0.9s;
+}
+.inline_div .over4:hover h2{
+    padding-top: 50px;
+}
+
+.over4 h3{
+    padding: 0px 0px 10px 10px;
+}
+.over4 p{
+    font-size: 18px;
+    padding: 0px 0px 0px 10px;
+}
+.circle{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.service{
+    height: fit-content;
+    width: 100px;
+    padding: 30px;
+    margin: auto    ;
+}
+.service h1{
+    font-size: 20px;
+    text-align: center;
+}
+.service img{
+    height: 50px;
+    width: 50px;
+    margin-left: 23px;
+    margin-top: 10px;
+    transition: all 1s;
+}
+.service:hover img{
+    transform: rotate(360deg);
+}
+
+
+
